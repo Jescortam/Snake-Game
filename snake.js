@@ -21,7 +21,7 @@ let speed;
 let newGameBox = document.getElementById("new-game-box");
 const speedButtons = document.querySelectorAll('input[name="speed"');
 const sizeButtons = document.querySelectorAll('input[name="size"');
-const speedOptions = [100, 250, 500];   // Fast, Normal and Slow
+const speedOptions = [100, 200, 400];   // Fast, Normal and Slow
 const sizeColumns = [16, 12, 8];        // Large, Regular and Small
 const sizeWidths = ["32px", "42.64px", "64px"];
 let popUp = document.getElementById("pop-up");
