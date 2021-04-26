@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>JS Projects - Snake Game</title>
+        <script defer src="snake.js"></script>
+        <link rel="stylesheet" href="snake.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap" rel="stylesheet">  
+    </head>
+    <body>
+        <div id="monitor">
+            <div id="score-box">
+                <div>
+                    Score: 
+                    <span id="score">2</span>
+                </div>
+                <div>
+                    Highscore:
+                    <span id="highscore">2</span>
+                </div>
+            </div>
+            <div id="main-grid"></div>
+            <div id="pop-up">Snake Game</div>
+            <div id="new-game-box">
+                <div class="options" id="speed-option">
+                    <div class="title-option">Speed</div>
+                    <div class="input-option">
+                        <input type="radio" id="fast" name="speed" value="fast">
+                        <label for="fast">Fast</label>
+                    </div>
+                    <div class="input-option">
+                        <input type="radio" id="normal" name="speed" value="normal" checked>
+                        <label for="normal">Normal</label>
+                    </div>
+                    <div class="input-option">
+                        <input type="radio" id="slow" name="speed" value="slow">
+                        <label for="slow">Slow</label>
+                    </div>
+                </div>
+                <div class="options" id="size-option">
+                    <div class="title-option">Size</div>
+                    <div class="input-option">
+                        <input type="radio" id="large" name="size" value="large">
+                        <label for="large">Large</label>
+                    </div>
+                    <div class="input-option">
+                        <input type="radio" id="regular" name="size" value="regular" checked>
+                        <label for="regular">Regular</label>
+                    </div>
+                    <div class="input-option">
+                        <input type="radio" id="small" name="size" value="small">
+                        <label for="small">Small</label>
+                    </div>
+                </div>
+                <button id="start">Start Game</button>
+            </div>
+        </div>
+    </body>
+</html>
