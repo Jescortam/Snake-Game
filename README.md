@@ -15,7 +15,6 @@ https://jescortam.github.io/Snake-Game/
 * **snakeBody**: Array containing the coordinates for each square of the snake.
 * **isPaused**: Checks if the game is paused or not.
 * **isAlive**: Checks if the snake has died or not.
-
 * **dir**: The initial value is 39, which means right (39 is the key code for the right arrow key).
 * **movement**: Is the movement speed of the snake (can be customized in the menu).
 
